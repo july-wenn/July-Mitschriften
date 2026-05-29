@@ -9,3 +9,6 @@ Weitere bekannte Auszeichnungssprachen sind:
 -Extensible Markup Language (XML)
 
 -Yet Another Markup Language
+
+
+Javaskript läuft unter normalen Umständen in einer Browser-Sandbox (nur in Browsern)
