@@ -8,4 +8,4 @@ Weitere bekannte Auszeichnungssprachen sind:
 
 -Extensible Markup Language (XML)
 
--Yet Another Markup Language
+-Yet Another Markup Language (YMAK, YML)
