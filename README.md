@@ -4,8 +4,8 @@ Das ist die README.md - Datei. MD sthet für Markdown. Markdown ist eine heutzut
 
 Weitere bekannte Auszeichnungssprachen sind:
 
--Hypertext Markup Language (HTML)
+- Hypertext Markup Language (HTML)
 
--Extensible Markup Language (XML)
+- Extensible Markup Language (XML)
 
--Yet Another Markup Language (YMAK, YML)
+- Yet Another Markup Language (YAML)
