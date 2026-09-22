@@ -9,3 +9,10 @@ Weitere bekannte Auszeichnungssprachen sind:
 - Extensible Markup Language (XML)
 
 - Yet Another Markup Language (YAML)
+
+
+22.09.2026
+
+-onclick
+(property, attribute)
+  JS           HTML
