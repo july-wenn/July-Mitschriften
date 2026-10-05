@@ -120,3 +120,20 @@ component events sind Ereignisse, die von einer Komponente ausgelöst werden. Si
 ### package.json
 
 Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Projekt enthält. Sie enthält Informationen wie den Namen des Projekts, die Version, die Abhängigkeiten, die Skripte und andere Konfigurationsoptionen. Die Datei wird von npm und pnpm verwendet, um das Projekt zu verwalten.
+
+## Historische Entwicklung von WebDev
+
+Webdevdevelopment hat sich im laufe der letzten 35 Jahren Evoulutioniert. Die wichtigsten Meilensteine sind:
+
+1. Statische Webseiten: HTML, CSS, JavaScript - initiale Phase der Webentwicklung, in der Webseiten aus statischen HTML-Dateien bestehen, die mit CSS und JavaScript angereichert werden.
+
+2. Dynamische Webseite (mit serverseitiger Programiersprache -PHP, Python, Ruby, Java, C#): Webseiten werden dynamisch generiert, indem serverseitige Programmiersprachen verwendet werden, um Inhalte aus Datenbanken abzurufen und in HTML zu rendern.
+
+3. Single Page Applications (SPA): Webseiten, die als einzelne HTML-Seite geladen werden und dynamisch Inhalte nachladen, ohne die Seite neu zu laden. SPAs verwenden oft JavaScript-Frameworks wie React, Angular oder Vue.js.
+
+### vibeCoding / AgenticEngineering mit VS- Code und GitHub Copilot
+
+VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent view. Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir können uns _Harness_ mit verschiedenen Methoden anpassen:
+
+-**MCP-Server:**
+MCP steht für _Model Context Protokoll_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots / LLMs (_Large Language model_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen. In unserem Fall ist das der _VibeCoding Harness_.
