@@ -117,12 +117,6 @@ Inline handlers sind Ereignis-Handler, die direkt in einem HTML-Element definier
 
 component events sind Ereignisse, die von einer Komponente ausgelöst werden. Sie können mit der Methode `dispatch` an eine Komponente gebunden werden. Component events können auch an eine übergeordnete Komponente weitergeleitet werden.
 
-## package.json
+### package.json
 
-# Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Projekt enthält. Sie enthält Informationen wie den Namen des Projekts, die Version, die Abhängigkeiten, die Skripte und andere Konfigurationsoptionen. Die Datei wird von npm und pnpm verwendet, um das Projekt zu verwalten.
-
-22.09.2026
-
--onclick
-(property, attribute)
-JS HTML
+Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Projekt enthält. Sie enthält Informationen wie den Namen des Projekts, die Version, die Abhängigkeiten, die Skripte und andere Konfigurationsoptionen. Die Datei wird von npm und pnpm verwendet, um das Projekt zu verwalten.
