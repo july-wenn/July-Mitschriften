@@ -10,6 +10,8 @@ Weitere bekannte Auszeichnungssprachen sind:
 
 - Yet Another Markup Language (YAML)
 
+<<<<<<< HEAD
+
 # Installation node.JS
 
 Javascript läuft unter normalen Umständen in einer Browser-Sandbox (nur im Browser). Seit ca. 2010 gibt es Laufzeitumgebung (_Runtime Environment_) für JS, damit man auch serverseitig JS programmieren und ausführen kann: [Node.js](https://nodejs.org/en).
@@ -117,4 +119,10 @@ component events sind Ereignisse, die von einer Komponente ausgelöst werden. Si
 
 ## package.json
 
-Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Projekt enthält. Sie enthält Informationen wie den Namen des Projekts, die Version, die Abhängigkeiten, die Skripte und andere Konfigurationsoptionen. Die Datei wird von npm und pnpm verwendet, um das Projekt zu verwalten.
+# Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Projekt enthält. Sie enthält Informationen wie den Namen des Projekts, die Version, die Abhängigkeiten, die Skripte und andere Konfigurationsoptionen. Die Datei wird von npm und pnpm verwendet, um das Projekt zu verwalten.
+
+22.09.2026
+
+-onclick
+(property, attribute)
+JS HTML
