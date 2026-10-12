@@ -125,14 +125,17 @@ Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Pr
 
 Webdevelopment hat im Laufe der letzten rund 35 Jahre einige Evolutionsstufen durchlaufen:
 
-1. Statische Webseiten (HTML, CSS, ggr. JavaScript) - initiale Phase des Webdevelopments, bei der Inhalte fest im HTML-Code verankert sind. Dominant in der 1990er Jahren.
+**1. Statische Webseiten** (HTML, CSS, ggr. JavaScript) - initiale Phase des Webdevelopments, bei der Inhalte fest im HTML-Code verankert sind. Dominant in der 1990er Jahren.
 
-2. Dynamische Webseiten (mit serverseitiger Programmiersprache die auf Datenbanken zugreift - PHP, Python, NodeJS - und Datenanbindung. Dominant in den 2000er Jahren.)
+**2. Dynamische Webseiten** (mit serverseitiger Programmiersprache die auf Datenbanken zugreift - PHP, Python, NodeJS - und Datenanbindung. Dominant in den 2000er Jahren.)
 
-3. _Single-Page Applications_ (SPA) - mit JavaScript-Frameworks erstellt "Wepapps", die ähnliche Funktionen wie klassische Desptop-Anwenundngen bzw. Handy-apps bieten. Dominant in der 2010er Jahren. Um Handy-Apps möglichst nahe zu kommen, werden oft _Progressive Web Apps_ (PWA) erntwickelt. Damit können Webapps offline funktionieren, Push-Benachrichtigungen senden und auf bestimmte natibe Funktionen des Geräts zugreifen. Es gibt drei vorraussetzungen die eine Webapp erfüllen muss, um als PWA zu gelten:
-4. Sie muss über HTTPS ausgeliefert werden.
-5. Sie muss ein Web-App-Manifest manifst.json haben.
-6. Die WEbapp muss über https erreichbar sein und einen Service Worker haben, der die App offline verfügbar macht.
+**3. _Single-Page Applications_ (SPA)** - mit JavaScript-Frameworks erstellt "Wepapps", die ähnliche Funktionen wie klassische Desptop-Anwenundngen bzw. Handy-apps bieten. Dominant in der 2010er Jahren. Um Handy-Apps möglichst nahe zu kommen, werden oft _Progressive Web Apps_ (PWA) erntwickelt. Damit können Webapps offline funktionieren, Push-Benachrichtigungen senden und auf bestimmte natibe Funktionen des Geräts zugreifen. Es gibt drei vorraussetzungen die eine Webapp erfüllen muss, um als PWA zu gelten:
+
+**1.** Sie muss über HTTPS ausgeliefert werden.
+
+**2.** Sie muss ein Web-App-Manifest manifst.json haben.
+
+**3.** Die WEbapp muss über https erreichbar sein und einen Service Worker haben, der die App offline verfügbar macht.
 
 - Pushbenachrichtigungen
 - Mikrofon
@@ -141,9 +144,25 @@ Webdevelopment hat im Laufe der letzten rund 35 Jahre einige Evolutionsstufen du
 - Bluetooth
 - Gyroskop
 
+#
+
+- **Frontend- Frameworks**: werden folgende Architekturprinzipien an, um eine möglichst gute _User Experience_ zu gewährleisten. Beispiele sind: React, Vue, Angular, Svelte
+
+- **Komponenten** sind die wiederverwendbaren "Lego" Bausteine einer Webapp. Sie können aus HTML, CSS und JavaScript bestehen und können in verschiedenen Teilen der Anwendung wiederverwendet werden.
+
+-**deklarative Programmierung:** - der Javaskript und Template (HTML) - code beschreiben, wie die Benutzerpberfläche ausssehen soll (die Umsetzung), dabei kommt die Reactivity ins spiel: Wenn sich der Zustand der Anwendung ändert, aktualisiert das Framework automatisch die Benutzeroberfläche, ohne dass der Entwickler sich um die Details kümmern muss. Wenn ödie Aktualisierung in die andere Richtung funktioniert, (d.h. wenn sich die Benutzeroberfläche ändert, weil der Benutzer mit ihr interagiert, und der Zustand (_state_) der Anwendung entsprechend aktualisiert wird), spricht man von bidirektionaler Datenbindung. (_two-waydata binding_)
+
+Logikelemente (Schleifen zur Darstellung von Listen und Bedingungen für das konsitinale Ein und Ausblenden von UI - Elementen) werdenin den Templates (HTML) der Komponente definiert. Die Templates werden vom Framework in die eigentliche Benutzeroberfläche übersetzt.
+
+Komponenten können auch andere Komponenten enthalten, wodurch eine hierarchische Struktur entsteht. Die Kommunikation zwischen Komponenten erfolgt über `_props_` (Eigenschaften) und `_events_` (Ereignisse). Props sind Daten, die von einer übergeordneten Komponente an eine untergeordnete Komponente weitergegeben werden. Events sind Ereignisse, die von einer untergeordneten Komponente an eine übergeordnete Komponente gesendet werden.
+
 ## VibeCoding / AgenticEngineering mit VS-Code und GitHub Copilot
 
 VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View. Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir können unseren _Harness_ mit verschiedenen Methoden anpassen:
 
 -**MCP-Server**:
 MCP steht für _Model COntext Protocol_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots/LLMs auf zustzliche Tools zugreifenm, die sie zu Experten in einem bestimmten Bereich machen.
+
+##
+
+-**datenverkapselung**: wird bei der Objektorientierten Programmierung verwendet, um die Daten und Methoden einer Klasse zu schützen und den Zugriff auf sie zu kontrollieren. Dies wird erreicht, indem die Daten und Methoden als private deklariert werden und nur über öffentliche Methoden (Getter und Setter) zugänglich gemacht werden.
