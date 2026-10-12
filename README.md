@@ -67,7 +67,7 @@ anstatt für einer Liste jedes einzelne Element zu rendern, kann man mit `each b
 </div>
 ```
 
-## anonyme Funktionen,
+## anonyme Funktionen
 
 die keine Namen haben. Sie werden oft als Argumente an andere Funktionen übergeben oder als Rückgabewerte von Funktionen verwendet. Anonyme Funktionen können mit der `function`-Syntax oder mit der Pfeilfunktion (`=>`) definiert werden.
 
@@ -121,19 +121,29 @@ component events sind Ereignisse, die von einer Komponente ausgelöst werden. Si
 
 Die Datei `package.json` ist eine JSON-Datei, die Metadaten über ein Node.js-Projekt enthält. Sie enthält Informationen wie den Namen des Projekts, die Version, die Abhängigkeiten, die Skripte und andere Konfigurationsoptionen. Die Datei wird von npm und pnpm verwendet, um das Projekt zu verwalten.
 
-## Historische Entwicklung von WebDev
+# Historische Entwicklung von WebDev
 
-Webdevdevelopment hat sich im laufe der letzten 35 Jahren Evoulutioniert. Die wichtigsten Meilensteine sind:
+Webdevelopment hat im Laufe der letzten rund 35 Jahre einige Evolutionsstufen durchlaufen:
 
-1. Statische Webseiten: HTML, CSS, JavaScript - initiale Phase der Webentwicklung, in der Webseiten aus statischen HTML-Dateien bestehen, die mit CSS und JavaScript angereichert werden.
+1. Statische Webseiten (HTML, CSS, ggr. JavaScript) - initiale Phase des Webdevelopments, bei der Inhalte fest im HTML-Code verankert sind. Dominant in der 1990er Jahren.
 
-2. Dynamische Webseite (mit serverseitiger Programiersprache -PHP, Python, Ruby, Java, C#): Webseiten werden dynamisch generiert, indem serverseitige Programmiersprachen verwendet werden, um Inhalte aus Datenbanken abzurufen und in HTML zu rendern.
+2. Dynamische Webseiten (mit serverseitiger Programmiersprache die auf Datenbanken zugreift - PHP, Python, NodeJS - und Datenanbindung. Dominant in den 2000er Jahren.)
 
-3. Single Page Applications (SPA): Webseiten, die als einzelne HTML-Seite geladen werden und dynamisch Inhalte nachladen, ohne die Seite neu zu laden. SPAs verwenden oft JavaScript-Frameworks wie React, Angular oder Vue.js.
+3. _Single-Page Applications_ (SPA) - mit JavaScript-Frameworks erstellt "Wepapps", die ähnliche Funktionen wie klassische Desptop-Anwenundngen bzw. Handy-apps bieten. Dominant in der 2010er Jahren. Um Handy-Apps möglichst nahe zu kommen, werden oft _Progressive Web Apps_ (PWA) erntwickelt. Damit können Webapps offline funktionieren, Push-Benachrichtigungen senden und auf bestimmte natibe Funktionen des Geräts zugreifen. Es gibt drei vorraussetzungen die eine Webapp erfüllen muss, um als PWA zu gelten:
+4. Sie muss über HTTPS ausgeliefert werden.
+5. Sie muss ein Web-App-Manifest manifst.json haben.
+6. Die WEbapp muss über https erreichbar sein und einen Service Worker haben, der die App offline verfügbar macht.
 
-### vibeCoding / AgenticEngineering mit VS- Code und GitHub Copilot
+- Pushbenachrichtigungen
+- Mikrofon
+- Kamera
+- GPS
+- Bluetooth
+- Gyroskop
 
-VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent view. Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir können uns _Harness_ mit verschiedenen Methoden anpassen:
+## VibeCoding / AgenticEngineering mit VS-Code und GitHub Copilot
 
--**MCP-Server:**
-MCP steht für _Model Context Protokoll_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots / LLMs (_Large Language model_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen. In unserem Fall ist das der _VibeCoding Harness_.
+VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View. Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir können unseren _Harness_ mit verschiedenen Methoden anpassen:
+
+-**MCP-Server**:
+MCP steht für _Model COntext Protocol_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots/LLMs auf zustzliche Tools zugreifenm, die sie zu Experten in einem bestimmten Bereich machen.
