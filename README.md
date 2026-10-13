@@ -85,10 +85,6 @@ keyed each block ist eine Erweiterung des each blocks. Es ermöglicht es, dass d
 {/each}
 ```
 
-## stack
-
-List von Elementen, die nach dem Last-In-First-Out-Prinzip (LIFO) organisiert sind. Das bedeutet, dass das zuletzt hinzugefügte Element als erstes entfernt wird. Ein Stack kann mit den Methoden `push` und `pop` manipuliert werden.
-
 ## queue
 
 List von Elementen, die nach dem First-In-First-Out-Prinzip (FIFO) organisiert sind. Das bedeutet, dass das zuerst hinzugefügte Element als erstes entfernt wird. Eine Queue kann mit den Methoden `enqueue` und `dequeue` manipuliert werden.
@@ -163,6 +159,24 @@ VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent 
 -**MCP-Server**:
 MCP steht für _Model COntext Protocol_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots/LLMs auf zustzliche Tools zugreifenm, die sie zu Experten in einem bestimmten Bereich machen.
 
-##
+# stack
 
--**datenverkapselung**: wird bei der Objektorientierten Programmierung verwendet, um die Daten und Methoden einer Klasse zu schützen und den Zugriff auf sie zu kontrollieren. Dies wird erreicht, indem die Daten und Methoden als private deklariert werden und nur über öffentliche Methoden (Getter und Setter) zugänglich gemacht werden.
+### \* Datenstrukture (lifo)
+
+### \* server / software stack
+
+### \* bereiche im RAM (Speicher) einer anwendung
+
+List von Elementen, die nach dem Last-In-First-Out-Prinzip (LIFO) organisiert sind. Das bedeutet, dass das zuletzt hinzugefügte Element als erstes entfernt wird. Ein Stack kann mit den Methoden `push` und `pop` manipuliert werden.
+
+## server stack
+
+server stack ist eine Sammlung von Softwaretechnologien, die zusammenarbeiten, um eine Webanwendung zu erstellen. Ein typischer Server Stack besteht aus einem Betriebssystem, einem Webserver, einer Datenbank und einer serverseitigen Programmiersprache. Beispiele für Server Stacks sind LAMP (Linux, Apache, MySQL, PHP), MEAN (MongoDB, Express.js, AngularJS, Node.js) und MERN (MongoDB, Express.js, React.js, Node.js).
+
+## rest api
+
+rest api ist ein Architekturstil für die Entwicklung von Webservices. REST steht für _Representational State Transfer_. RESTful Webservices verwenden HTTP-Methoden (GET, POST, PUT, DELETE) und URIs, um Ressourcen zu identifizieren und auf sie zuzugreifen. RESTful Webservices sind stateless, das bedeutet, dass jeder Request alle Informationen enthalten muss, die der Server benötigt, um ihn zu verarbeiten. RESTful Webservices sind skalierbar und können leicht in verschiedene Anwendungen integriert werden.
+
+## server / software stack:
+
+ist eine Sammlung von Softwaretechnologien, die zusammenarbeiten, um eine Webanwendung zu erstellen. Ein typischer Server Stack besteht aus einem Betriebssystem, einem Webserver, einer Datenbank und einer serverseitigen Programmiersprache. Beispiele für Server Stacks sind LAMP (Linux, Apache, MySQL, PHP), MEAN (MongoDB, Express.js, AngularJS, Node.js) und MERN (MongoDB, Express.js, React.js, Node.js).
